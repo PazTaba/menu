@@ -1,0 +1,16 @@
+
+.input-dishes {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    transition: border-color 0.2s;
+    height: 10px;
+    width: 100px;
+    background: #f4fdfe;
+}
+
+.input:focus {
+    border-color: #007bff;
+}

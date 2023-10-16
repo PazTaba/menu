@@ -1,0 +1,25 @@
+.tables {
+    display: flex;
+    height: 100vh;
+    flex-direction: row;
+    width: 100vw;
+    align-content: center;
+
+}
+.grid {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    flex-direction: row;
+}
+.btt{
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    margin-left: 20px;
+    font-size: 20px;
+    align-items: center;
+
+}
+

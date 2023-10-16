@@ -1,0 +1,32 @@
+.list-pages {
+    direction: rtl;
+    background: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    font-style: normal ;
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+.main-list{
+
+    direction: rtl;
+
+}
+.item:hover{
+    color: #000000;
+    background-color: white;
+    border-radius: 10px;
+    width: 8%;
+    align-items: center;
+
+}

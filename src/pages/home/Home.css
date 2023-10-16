@@ -1,0 +1,15 @@
+.receipt-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.receipt-table th, .receipt-table td {
+    border: 1px solid #000000;
+    padding: 8px;
+    text-align: center;
+}
+
+.receipt-table th {
+    background-color: #d9c8c8;
+}

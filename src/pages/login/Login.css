@@ -1,0 +1,99 @@
+
+
+.login{
+    color: #000000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(92, 124, 231, 0.32);
+    border-radius: 20px;
+    width: clamp(300px,500px,50%);
+    height: clamp(300px,500px,50%);
+
+
+}
+.input-container{
+    display: flex;
+    flex-direction: column;
+    /*background: #333333;*/
+
+}
+.submit{
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.input-password{
+    margin-top:10%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    transition: border-color 0.2s;
+    height: 10px;
+    width: 200px;
+    background: #f4fdfe;
+
+}
+.button-submit{
+    margin: 10px;
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    background: #c20f0f;
+    color: #f5ffff;
+    font-family: David, serif;
+    box-shadow: #000000 0px 0px 20px 5px;
+}
+.button-submit:hover{
+    background: url('bomb-clipart (1).svg') no-repeat center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100px;
+    height: 40px;
+    background-size:40px;
+    text-anchor: end;
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 20px 5px;
+    border: none;
+    color: transparent;
+    transition: 0.3s;
+}
+
+.header{
+    font-style: italic;
+    color: white;
+    font-size: 40px;
+}
+.goToSignUp{
+
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-size: 40px;
+    font-style: unset;
+
+}
+.goToSignUp:hover{
+    color: #ff0000;
+
+}
+.main-container{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background: url('Meteor.svg') no-repeat center;
+    background-size: cover;
+    min-height: 100vh;
+
+}
